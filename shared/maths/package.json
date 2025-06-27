@@ -12,9 +12,9 @@
       "types": "./src/index.ts",
       "default": "./dist/src/index.js"
     },
-    "./test": {
-      "types": "./src/test.ts",
-      "default": "./dist/src/test.js"
+    "./addition": {
+      "types": "./src/addition.ts",
+      "default": "./dist/src/addition.js"
     }
   },
   "keywords": [],
