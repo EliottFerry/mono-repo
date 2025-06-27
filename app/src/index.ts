@@ -4,5 +4,5 @@ import { print } from "printer";
 
 console.log(lib1());
 console.log(test());
-console.log("Ma couille");
+console.log("From index");
 print();
