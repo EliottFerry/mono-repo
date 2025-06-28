@@ -9,7 +9,7 @@
     "build": "tsc && npx tsc-alias -p tsconfig.json"
   },
   "dependencies": {
-    "printer": "workspace:*",
+    "@repo/printer": "workspace:*",
     "tsc-alias": "^1.8.16"
   },
   "author": "",

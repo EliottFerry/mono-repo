@@ -8,15 +8,15 @@ importers:
 
   .:
     dependencies:
-      maths:
+      '@repo/maths':
         specifier: workspace:*
         version: link:shared/maths
-      my-app:
-        specifier: workspace:*
-        version: link:app
-      printer:
+      '@repo/printer':
         specifier: workspace:*
         version: link:shared/printer
+      my-app:
+        specifier: workspace:*
+        version: link:apps/first-app
       turbo:
         specifier: ^2.5.4
         version: 2.5.4
@@ -28,11 +28,11 @@ importers:
         specifier: ^5.7.3
         version: 5.8.3
 
-  app:
+  apps/first-app:
     dependencies:
-      printer:
+      '@repo/printer':
         specifier: workspace:*
-        version: link:../shared/printer
+        version: link:../../shared/printer
       tsc-alias:
         specifier: ^1.8.16
         version: 1.8.16
@@ -51,7 +51,7 @@ importers:
 
   shared/printer:
     dependencies:
-      maths:
+      '@repo/maths':
         specifier: workspace:*
         version: link:../maths
     devDependencies:

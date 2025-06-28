@@ -8,14 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "turbo build"
   },
-  "workspaces": [
-    "shared/**",
-    "app/**"
-  ],
   "dependencies": {
     "my-app": "workspace:*",
-    "printer": "workspace:*",
-    "maths": "workspace:*",
+    "@repo/printer": "workspace:*",
+    "@repo/maths": "workspace:*",
     "turbo": "^2.5.4"
   },
   "devDependencies": {

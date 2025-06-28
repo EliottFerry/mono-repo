@@ -1,21 +1,15 @@
 {
-  "name": "maths",
+  "name": "@repo/maths",
   "version": "1.0.0",
   "description": "",
+  "main": "./dist/index.ts",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "exports": {
-    ".": {
-      "types": "./src/index.ts",
-      "default": "./dist/src/index.js"
-    },
-    "./addition": {
-      "types": "./src/addition.ts",
-      "default": "./dist/src/addition.js"
-    }
+    ".": "./src/index.ts",
+    "./addition": "./src/addition.ts"
   },
   "keywords": [],
   "author": "",

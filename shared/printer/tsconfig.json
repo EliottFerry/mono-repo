@@ -1,5 +1,4 @@
 {
-
   "compilerOptions": {
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -17,6 +16,7 @@
     "declaration": true,
     "composite": true,
     "declarationMap": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "rootDir": "./src"
   }
 }

@@ -1,5 +1,5 @@
-import { health } from "maths";
-import { add } from "maths/addition";
+import { health } from "@repo/maths";
+import { add } from "@repo/maths/addition";
 
 export function print() {
   health();
